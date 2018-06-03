@@ -57,12 +57,6 @@ namespace PetCareTests
             result = alreadyLoggedIn || isUsernameEntered && isPasswordEntered && isLoginButtonVisible;
             Console.WriteLine("Result 2:");
             //Console.WriteLine(canLogin);
-
-
-            alreadyLoggedIn = true;
-            result = alreadyLoggedIn || isUsernameEntered && isPasswordEntered && isLoginButtonVisible;
-            Console.WriteLine("Result 3:");
-            //Console.WriteLine(canLogin);
         }
     }
 }
